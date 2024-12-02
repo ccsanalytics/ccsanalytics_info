@@ -8,7 +8,7 @@
 body {
     font-size: 16px;
     color: #023047;
-    background-color: #8ecae6;
+    background-color: #ffffff;
 }
 
 header {
@@ -42,6 +42,12 @@ section {
     color: white;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 75%;
+}
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
